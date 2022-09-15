@@ -1,0 +1,192 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    height: 80px;
+    background-color: black;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid #ad361f;
+    
+}
+
+header > nav > .top-right-nav > ul > li > a:link, header > nav > .top-right-nav > ul > li > a:visited {
+    font-weight: bolder;
+    color: #ffc933;
+    text-decoration: none;
+}
+
+header > nav > .top-right-nav > ul > li > a:hover {
+    color: #ab8211;
+}
+
+nav > img {
+    margin: 15px 0 auto 160px;
+}
+
+.top-right-nav {
+    float: right;
+}
+
+.top-right-nav ul {
+    display: flex;
+    color: azure;
+    gap: 20px;
+    margin-top: 27px;
+    margin-bottom: auto;
+    margin-right: 130px;
+    font-size: 20px;
+}
+
+.top-right-nav li {
+    list-style: none;
+}
+
+/* END NAV CSS */
+
+main {
+    margin-top: 100px;
+    color: azure;
+    padding: 0 90px 50px 90px;
+}
+
+.picture {
+    display: inline;
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+    color: #ffc933;
+}
+
+.quote {
+    margin: 0;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+.relevant-info {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.info-container {
+    display: flex;
+    column-gap: 30px;
+}
+
+.information p {
+    margin: 4px 0 4px 0;
+}
+
+.divider {
+    margin-top: 30px;
+    border-bottom: 3px solid #f54725;
+
+}
+
+.indent {
+    padding-left: 10px;
+}
+
+#character-information, #abilities, #lelouch-gallery {
+    color: #ffd154;
+}
+
+.more-info {
+    font-size: 18px;
+}
+
+.geass-container img, .chess-container img {
+   float: right;
+   margin-left: 50px;
+   margin-bottom: 50px;
+}
+
+.geass-container > ul > li {
+    margin: 5px 0 5px 0;
+}
+
+#img-caption {
+    float: r;
+}
+
+/* END MAIN PROFILE */
+
+#lelouch-gallery {
+    text-align: center;
+    font-size: 60px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery-container img{
+    max-width: 300px;
+    object-fit: cover;
+}
+
+.gallery-container::after {
+    content: "";
+    width: 300px;
+}
+
+.gallery a:link, .gallery a:visited {
+    background-color: #ffc933;
+    padding: 20px 20px;
+    display: block;
+    width: 20%;
+    text-align: center;
+    margin: 50px auto 0 auto;
+    border-radius: 5px;
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.gallery a:hover {
+    background-color: #ab8211;
+}
+
+/* END GALLERY CSS */
+
+footer {
+    border-top: 5px solid #f54725;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+}
+
+.foot-container {
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+.foot-container a:link, .foot-container a:visited {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #ffc933;
+}
+
+.foot-container a:hover {
+    color: #ab8211;
+}
